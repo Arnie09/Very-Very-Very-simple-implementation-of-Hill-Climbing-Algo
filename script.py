@@ -1,6 +1,6 @@
 import generations
 
-Target = "meow"
+Target = input("Enter the word : ")
 length = len(Target)
 
 generation_instance  = generations.Generations(length)
