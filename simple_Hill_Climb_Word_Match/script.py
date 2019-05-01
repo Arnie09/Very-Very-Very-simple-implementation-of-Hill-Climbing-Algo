@@ -8,7 +8,6 @@ generation_instance  = generations.Generations(length)
 generation_instance.fitnessfunction(Target)
 
 max_score = 0
-local_peak = ""
 best_uptil_now = generation_instance.generation
 
 while(generation_instance.score != length):
